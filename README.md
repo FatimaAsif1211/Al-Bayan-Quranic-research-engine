@@ -49,7 +49,7 @@ A researcher submits a conceptual query, such as "kindness," and the system retr
 
 The synthesis continues with each cited verse presented alongside its original Arabic text and an English rendering, allowing the researcher to verify every claim against its source.
 
-![Semantic search results continued, showing supporting Arabic text and translated evidence records](screenshots/semantic-search-extended.png)
+![Semantic search results continued, showing supporting Arabic text and translated evidence records](screenshots/semantic-search%20extended.png)
 
 The final section of the synthesis presents a conclusion, a numbered reference list, and reports the retrieval latency, the number of candidates scanned, and the number of verified matches. A downloadable plain text summary is also provided.
 
