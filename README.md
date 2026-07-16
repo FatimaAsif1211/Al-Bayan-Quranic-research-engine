@@ -1,4 +1,4 @@
-# Al Bayan: A Local Retrieval Augmented Research Engine for the Tafsir of Ibn Kathir
+# Al Bayan: A Local Retrieval Augmented Research Engine  
 
 ## Abstract
 
