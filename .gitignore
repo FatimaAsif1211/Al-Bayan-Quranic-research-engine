@@ -1,0 +1,56 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- Local model files (large, re-downloadable, do NOT commit) ---
+models/
+*.onnx
+*.onnx_data
+*.bin
+*.safetensors
+
+# --- Qdrant local vector storage (large binary data do NOT commit ) ---
+qdrant_storage/
+
+# --- Editor / IDE history & config ---
+.history/
+.vscode/
+.idea/
+
+# --- Old backups / scratch folders (not needed in the repo) ---
+backup_old_model/
+old model2/
+
+# --- Downloaded wheel files (should be installed via requirements.txt, not committed) ---
+*.whl
+
+# --- Large raw datasets / intermediate build artifacts ---
+# Keep these locally, or move a small sample into a "sample_data/" folder
+# instead if you want reviewers to see the data shape without the full size. (NOT commit)
+iqra-tafsir-data/
+pdfs/
+*.jsonl
+*.pkl
+*.index
+Quran_Full_Dataset.csv
+quran.csv
+quran_ar.txt
+quran_en_clean.txt
+tafseer_verification_report.csv
+New Microsoft Excel Worksheet.xlsx
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+
+# --- Env / secrets ---
+.env
+*.env
