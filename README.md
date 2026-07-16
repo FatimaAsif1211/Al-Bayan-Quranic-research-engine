@@ -49,17 +49,17 @@ A researcher submits a conceptual query, such as "kindness," and the system retr
 
 The synthesis continues with each cited verse presented alongside its original Arabic text and an English rendering, allowing the researcher to verify every claim against its source.
 
-![Semantic search results continued, showing supporting Arabic text and translated evidence records](screenshots/semantic-search extended.png)
+![Semantic search results continued, showing supporting Arabic text and translated evidence records](screenshots/semantic-searchextended.png)
 
 The final section of the synthesis presents a conclusion, a numbered reference list, and reports the retrieval latency, the number of candidates scanned, and the number of verified matches. A downloadable plain text summary is also provided.
 
-![Concluding synthesis, reference list, and performance metrics for the semantic search query](screenshots/semantic-search ext2.png)
+![Concluding synthesis, reference list, and performance metrics for the semantic search query](screenshots/semantic-searchext2.png)
 
 ### 4.2 Direct Verse Lookup
 
 A researcher may enter a standard chapter to verse coordinate, for example 7:199, and the system returns the exact matching Arabic text together with its English translation.
 
-![Direct verse lookup showing Al A'raaf, Ayah 199, with Arabic text and translation](screenshots/direct-verse lookup.png)
+![Direct verse lookup showing Al A'raaf, Ayah 199, with Arabic text and translation](screenshots/direct-verselookup.png)
 
 ### 4.3 Keyword Scan
 
@@ -67,9 +67,9 @@ The keyword scan mode performs an exact term search across the indexed corpus an
 
 ![Keyword scan input field showing the search term water and eighteen matching records](screenshots/keyword-scan.png)
 
-![Additional matches from the keyword scan, with the search term highlighted in context](screenshots/keyword-scan cont.png)
+![Additional matches from the keyword scan, with the search term highlighted in context](screenshots/keyword-scancont.png)
 
-![Further keyword scan results spanning multiple surahs](screenshots/keyword-scan cont2.png)
+![Further keyword scan results spanning multiple surahs](screenshots/keyword-scancont2.png)
 
 ### 4.4 Live Database Inspector
 
