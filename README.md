@@ -112,8 +112,8 @@ A GPU is optional. By default, the application runs entirely on the CPU using ON
 Clone the repository and enter its directory.
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/FatimaAsif1211/Al-Bayan-Quranic-research-engine
+cd Al-Bayan-Quranic-research-engine
 ```
 
 Install the required Python packages.
