@@ -45,45 +45,45 @@ The application follows a retrieval augmented generation design. User input is e
 
 A researcher submits a conceptual query, such as "kindness," and the system retrieves the most relevant passages from the indexed tafsir, ranks them by similarity score, and generates a scholarly summary that cites each supporting record by surah, ayah, and translation.
 
-![Semantic search interface showing the query and the beginning of the scholarly synthesis](docs/screenshots/semantic-search.png)
+![Semantic search interface showing the query and the beginning of the scholarly synthesis](screenshots/semantic-search.png)
 
 The synthesis continues with each cited verse presented alongside its original Arabic text and an English rendering, allowing the researcher to verify every claim against its source.
 
-![Semantic search results continued, showing supporting Arabic text and translated evidence records](docs/screenshots/semantic-search_extended.png)
+![Semantic search results continued, showing supporting Arabic text and translated evidence records](screenshots/semantic-search_extended.png)
 
 The final section of the synthesis presents a conclusion, a numbered reference list, and reports the retrieval latency, the number of candidates scanned, and the number of verified matches. A downloadable plain text summary is also provided.
 
-![Concluding synthesis, reference list, and performance metrics for the semantic search query](docs/screenshots/semantic-search_ext2.png)
+![Concluding synthesis, reference list, and performance metrics for the semantic search query](screenshots/semantic-search_ext2.png)
 
 ### 4.2 Direct Verse Lookup
 
 A researcher may enter a standard chapter to verse coordinate, for example 7:199, and the system returns the exact matching Arabic text together with its English translation.
 
-![Direct verse lookup showing Al A'raaf, Ayah 199, with Arabic text and translation](docs/screenshots/direct-verse_lookup.png)
+![Direct verse lookup showing Al A'raaf, Ayah 199, with Arabic text and translation](screenshots/direct-verse_lookup.png)
 
 ### 4.3 Keyword Scan
 
 The keyword scan mode performs an exact term search across the indexed corpus and highlights every occurrence of the search term within the returned passages, along with a count of matching records.
 
-![Keyword scan input field showing the search term water and eighteen matching records](docs/screenshots/keyword-scan.png)
+![Keyword scan input field showing the search term water and eighteen matching records](/screenshots/keyword-scan.png)
 
-![Additional matches from the keyword scan, with the search term highlighted in context](docs/screenshots/keyword-scan_cont.png)
+![Additional matches from the keyword scan, with the search term highlighted in context](screenshots/keyword-scan_cont.png)
 
-![Further keyword scan results spanning multiple surahs](docs/screenshots/keyword-scan_cont2.png)
+![Further keyword scan results spanning multiple surahs](screenshots/keyword-scan_cont2.png)
 
 ### 4.4 Live Database Inspector
 
 This mode allows a researcher to browse and paginate through the raw records stored in the vector database, which is useful for verifying that ingestion completed correctly and that record fields are populated as expected.
 
-![Live Database Inspector showing paginated records retrieved from the vector database](docs/screenshots/database-inspect.png)
+![Live Database Inspector showing paginated records retrieved from the vector database](screenshots/database-inspect.png)
 
-![Expanded database record showing the full English and Urdu tafsir fields](docs/screenshots/database-inspect-extended.png)
+![Expanded database record showing the full English and Urdu tafsir fields](screenshots/database-inspect-extended.png)
 
 ### 4.5 Data Ingestion
 
 New records can be added to the index by uploading a structured CSV file containing the required fields. The interface previews the uploaded data before it is appended and indexed.
 
-![Data ingestion pipeline with instructions for uploading and indexing a CSV file](docs/screenshots/data-ingestion.png)
+![Data ingestion pipeline with instructions for uploading and indexing a CSV file](screenshots/data-ingestion.png)
 
 ## 5. Technology Stack
 
