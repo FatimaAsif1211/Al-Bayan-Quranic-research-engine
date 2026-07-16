@@ -49,27 +49,27 @@ A researcher submits a conceptual query, such as "kindness," and the system retr
 
 The synthesis continues with each cited verse presented alongside its original Arabic text and an English rendering, allowing the researcher to verify every claim against its source.
 
-![Semantic search results continued, showing supporting Arabic text and translated evidence records](screenshots/semantic-search extended.png)
+![Semantic search results continued, showing supporting Arabic text and translated evidence records](screenshots/semantic-search-extended.png)
 
 The final section of the synthesis presents a conclusion, a numbered reference list, and reports the retrieval latency, the number of candidates scanned, and the number of verified matches. A downloadable plain text summary is also provided.
 
-![Concluding synthesis, reference list, and performance metrics for the semantic search query](screenshots/semantic-search_ext2.png)
+![Concluding synthesis, reference list, and performance metrics for the semantic search query](screenshots/semantic-search-ext2.png)
 
 ### 4.2 Direct Verse Lookup
 
 A researcher may enter a standard chapter to verse coordinate, for example 7:199, and the system returns the exact matching Arabic text together with its English translation.
 
-![Direct verse lookup showing Al A'raaf, Ayah 199, with Arabic text and translation](screenshots/direct-verse_lookup.png)
+![Direct verse lookup showing Al A'raaf, Ayah 199, with Arabic text and translation](screenshots/direct-verse-lookup.png)
 
 ### 4.3 Keyword Scan
 
 The keyword scan mode performs an exact term search across the indexed corpus and highlights every occurrence of the search term within the returned passages, along with a count of matching records.
 
-![Keyword scan input field showing the search term water and eighteen matching records](/screenshots/keyword-scan.png)
+![Keyword scan input field showing the search term water and eighteen matching records](screenshots/keyword-scan.png)
 
-![Additional matches from the keyword scan, with the search term highlighted in context](screenshots/keyword-scan_cont.png)
+![Additional matches from the keyword scan, with the search term highlighted in context](screenshots/keyword-scan-cont.png)
 
-![Further keyword scan results spanning multiple surahs](screenshots/keyword-scan_cont2.png)
+![Further keyword scan results spanning multiple surahs](screenshots/keyword-scan-cont2.png)
 
 ### 4.4 Live Database Inspector
 
@@ -84,7 +84,7 @@ This mode allows a researcher to browse and paginate through the raw records sto
 New records can be added to the index by uploading a structured CSV file containing the required fields. The interface previews the uploaded data before it is appended and indexed.
 
 ![Data ingestion pipeline with instructions for uploading and indexing a CSV file](screenshots/data-ingestion.png)
-
+ 
 ## 5. Technology Stack
 
 | Component | Purpose |
